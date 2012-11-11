@@ -1,0 +1,24 @@
+{
+    "name": "lifefork/card",
+    "type": "library",
+    "description": "Parses Cards for LifeFork",
+    "keywords": [
+        "LifeFork"
+    ],
+    "license": "MIT Modified",
+    "authors": [
+        {
+            "name": "H Hatfield",
+            "email": "hatfieldje@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lifefork": "src/"
+        }
+    }
+}
